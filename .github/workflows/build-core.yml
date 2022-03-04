@@ -83,7 +83,7 @@ jobs:
           default-base: ${{ github.event.inputs.DEFAULT_BRANCH }}
 
       - name: '[Prep 5] build'
-        uses: zowe-actions/zlux-builds/core/build@main
+        uses: jackjia-ibm/zlux-builds/core/build@main
         with:
           zlux-app-manager: ${{ github.event.inputs.ZLUX_APP_MANAGER }}
           zlux-app-server: ${{ github.event.inputs.ZLUX_APP_SERVER }}
@@ -93,7 +93,7 @@ jobs:
           zlux-shared: ${{ github.event.inputs.ZLUX_SHARED }}
 
       - name: '[Prep 6] packaging'
-        uses: zowe-actions/zlux-builds/core/package@main
+        uses: jackjia-ibm/zlux-builds/core/package@main
         with:
           pax-ssh-username: ${{ secrets.SSH_MARIST_USERNAME }}
           pax-ssh-password: ${{ secrets.SSH_MARIST_RACF_PASSWORD }}
