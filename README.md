@@ -5,7 +5,7 @@ this distribution, and is available at https://www.eclipse.org/legal/epl-v20.htm
 SPDX-License-Identifier: EPL-2.0
 
 Copyright Contributors to the Zowe Project.
-
+e
 # zlux-build
 
 This repository includes build scripts used for building Zowe App Framework code, and build pipeline used for building Zowe App Framework with multiple pull request.
